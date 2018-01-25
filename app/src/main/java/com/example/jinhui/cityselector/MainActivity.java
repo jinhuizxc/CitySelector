@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_selector1:
+                // 参考自：https://github.com/LiuXi0314/LetterTipSelector
                 startActivity(new Intent(this, SelectorActivity.class));
                 break;
             case R.id.bt_selector2:
