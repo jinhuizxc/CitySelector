@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".effcet1.SelectorActivity"/>
+        <activity android:name=".effcet2.Selector2Activity"/>
     </application>
 
 </manifest>
